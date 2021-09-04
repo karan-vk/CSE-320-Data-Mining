@@ -1,0 +1,4 @@
+"age","marital_status","quality","time_spent","num_of_people","type_of_people"
+45,"Married","Excellent",100,2,"Friends"
+89,"Unmarried","Good",80,6,"Alone"
+23,"Divorce","Poor",60,3,"Others"
