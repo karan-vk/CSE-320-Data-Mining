@@ -34,3 +34,4 @@ addmargins(round(100 * prop_table, 2))
 prop.table(newspaper_gender_table, 2)
 round(100 * prop.table(newspaper_gender_table, 2), 2)
 addmargins(round(prop.table(newspaper_gender_table, 2), 2), 1)
+
