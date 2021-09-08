@@ -1,0 +1,50 @@
+1.2 Blockchain Technology
+Blockchain technology was born from combining several concepts in order to
+introduce Bitcoin [59]. The hash function forms the basis of this technology, and
+it is believed to be infeasible to find the original message x from the image y.
+The drawback of this technique lies in the criterion that the original message is
+mapped to a fixed size. MD5 and SHA1 functions, introduced in the mid-1990s,
+were identified as having weaknesses before the rise of cryptanalysis, and this led
+to significant research by the American standardisation institute NIST to introduce
+SHA2 and SHA3. However, all cryptographic functions have the following main
+characteristics [71]:
+• Collision resistance: This ensures that it is very difficult to find two messages that
+generate the same message digest.
+• Preimage resistance: This means that it is very difficult to get the source message
+from the hashed value of an unknown message.
+• Second resistance to the preimage: For a given message, it is difficult to find a
+different message that maps to the same message.
+A Merkle tree is a critical part of each block and is used to fix the order of the
+transactions and link them to the previous block. Merkle [57] discussed the use of
+different cryptographical techniques such as digital signatures and proposed the use
+of tree authentication, which can solve many problems of communication for which
+the digital signature is not a suitable conceptual fit. The process of hashing involves
+repeatedly applying a function that takes an input of a fixed size and gives a random
+output.
+Blockchain is a chain of blocks, and the first proposal for the use of this type of
+chain was to ensure the integrity of a document. It was an alternative approach to the
+digital safety deposit box, which suffers from issues related to privacy, bandwidth
+storage, incompetence, and trust [37]. This approach used a hashed chain of blocks
+to keep records of each access to a document for security. A later work proposed
+optimisation through the use of a Merkle tree [8].
+
+PoW is a protocol proof that depends on making the miner do extensive work; for example, it has been used to discourage spam emails in Hashcash [4]. PoW is used in the validation of transactions within blockchain technology [14, 59].
+The Bitcoin protocol depends on extensive queries of the hash function with an
+incrementable nonce number, timestamp, and transaction contents. The mining is
+complete when the output has the required leading zero. This was intended to create
+a race between different participants to find a suitable nonce, unlike Hashcash,
+which simply discourages malicious senders from using a service.
+The above-stated concepts were combined to produce the blockchain network
+for the Bitcoin protocol. Although the system has shown impressive performance
+in terms of eliminating double-spending without the need for a trusted third party,
+it has many drawbacks that have launched searches for different forms of block
+organisation and consensus validation. Szabo [73] discussed previous work by Wei
+Dai with additional usage of cryptographic techniques. The work aimed to automate
+the contractual relations based on the ability to virtualise the organisation and the
+intellectual and physical properties as entities within a distributed system. A smart
+contract takes a completely different approach from the consensual mechanism by
+forcing the rules to be validated periodically by miners; the Ethereum platform has
+introduced smart contracts within the blockchain transaction of values, acting as
+a proxy interface within the distributed system. This was an initiation of the idea
+of the autonomous distributed corporation that exchanges values based on different
+conditions.
