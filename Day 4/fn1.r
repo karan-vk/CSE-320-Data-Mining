@@ -34,8 +34,9 @@ dtm
 m <- as.matrix(dtm)
 v <- sort(rowSums(m), decreasing = TRUE)
 d <- data.frame(word = names(v), freq = v)
-
+set.seed(119039)
 wordcloud(
-    words = d$word, freq = d$freq, min.freq = 15, max.words = 100, random.order = FALSE,
-    colors = brewer.pal(9, "Dark2"), rot.per = 0.5, width = 1000, height = 1000,
+    words = d$word, freq = d$freq, min.freq = 1, max.words = 100, random.order = FALSE,
+    colors = brewer.pal(9, "Dark2"), rot.per = 0.5, width = 10000, height = 10000,
 )
+
